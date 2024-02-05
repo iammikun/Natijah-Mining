@@ -1,0 +1,79 @@
+.contact_Container {
+  width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.contact_Text {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contact_Text h2 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact_Text hr {
+  background: #7b3f00;
+  height: 5px;
+  width: 10%;
+  /* margin: 0 auto; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.contact_Text p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  margin-top: 2rem;
+}
+
+.location,
+.loca {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.location a,
+.loca a {
+  color: #000000;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.908rem;
+}
+
+.location .info {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+.location .info .icon {
+  color: #7b3f00;
+}
+
+.loca a {
+  margin-top: 2rem;
+}
+
+.loca .info .icon {
+  color: #7b3f00;
+}
+
+.image {
+  /* width: 50%; */
+}
+
+.image img {
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+.what_Container {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.what_Wrapper {
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.what_Wrapper h2 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.what_Wrapper hr {
+  background: #7b3f00;
+  height: 5px;
+  width: 10%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.what_Wrapper p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  margin-top: 2rem;
+}
+
+.what_Wrapper button {
+  background: #7b3f00;
+  border: none;
+  padding: 16px 35px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.what_Wrapper button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}

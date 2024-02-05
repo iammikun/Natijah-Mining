@@ -1,0 +1,17 @@
+.nav_Container ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_Container ul li {
+  list-style: none;
+}
+
+.nav_Container ul li a {
+  text-decoration: none;
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}

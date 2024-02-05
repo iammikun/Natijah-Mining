@@ -1,0 +1,93 @@
+.footer_News {
+  width: 100%;
+  background: #7b3f00;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  border-bottom: 1px solid rgb(28, 27, 27);
+}
+
+.footer_News h4 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.footer_News input {
+  padding: 15px 10px;
+  width: 30%;
+  border: none;
+  margin-right: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer_News button {
+  background: #e39608;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.footer_News button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.footer {
+  width: 100%;
+  background: #7b3f00;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.footer .foot {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foot h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  width: 30%;
+}
+
+.foot .address h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.foot .address p {
+  font-size: 0.87rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+
+span {
+  background-color: #676464;
+  height: 5rem;
+  width: 1px;
+}
+
+.copyright p {
+  align-items: center;
+  text-align: center;
+  opacity: 0.8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
