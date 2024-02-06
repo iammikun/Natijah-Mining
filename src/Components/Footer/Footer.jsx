@@ -9,9 +9,9 @@ const Footer = () => {
       <div className={classes.footer_News}>
         <h4>SUBSCRIBE FOR NEWSLETTER</h4>
         <input type="email" placeholder="Enter Your Email..." />
-        <button>
-          <Link to="mailto:">SUBSCRIBE</Link>
-        </button>
+        <Link to="mailto:">
+          <button>SUBSCRIBE</button>
+        </Link>
       </div>
       <div className={classes.footer}>
         <div className={classes.foot}>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.copyright}>
-        <p>copyright 2024. All rights reserved.</p>
+        <p>© copyright 2024. All rights reserved.</p>
       </div>
     </>
   );

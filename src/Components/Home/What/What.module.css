@@ -45,7 +45,12 @@
   color: #fff;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
+}
+
+.what_Wrapper button:hover {
+  opacity: 0.8;
 }
 
 .what_Wrapper button a {

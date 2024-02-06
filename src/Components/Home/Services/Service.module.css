@@ -1,0 +1,73 @@
+.service_Container {
+  width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.service_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.service_Wrapper h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.service_Wrapper hr {
+  background: #7b3f00;
+  height: 5px;
+  width: 10%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.service_Cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.service_Cards .card {
+  text-align: center;
+  background-color: #fafafa;
+  cursor: pointer;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 5px;
+  border: 1px solid #e5eaed;
+  box-shadow: 0 4px 8px #e5eaed;
+  transition: transform 0.43s ease-out;
+}
+
+.service_Cards .card:hover {
+  transform: translateY(-13px);
+}
+
+.icon {
+  font-size: 5rem;
+  /* background: #7b3f00; */
+  color: #7b3f00;
+  margin-bottom: 1rem;
+}
+
+.card h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+}

@@ -1,0 +1,40 @@
+.content_Container {
+  width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.content_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: #9a9292; */
+}
+
+.content_Service {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.content_Card {
+  width: 50%;
+}
+
+.content_Card h2 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content_Card p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  margin-top: 2rem;
+}
+
+.content_Service img,
+.content_Services {
+  width: 50%;
+}

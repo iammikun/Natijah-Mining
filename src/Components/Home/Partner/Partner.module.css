@@ -1,0 +1,38 @@
+.partner_Container {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.partner_Container h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.partner_Container hr {
+  background: #7b3f00;
+  height: 5px;
+  width: 10%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.partner_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.partner_Wrapper img {
+  width: 20%;
+}

@@ -19,7 +19,7 @@
   padding: 15px 10px;
   width: 30%;
   border: none;
-  margin-right: 4px;
+  margin-right: 3px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -30,6 +30,15 @@
   border-radius: 10px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer_News button:hover {
+  opacity: 0.8;
 }
 
 .footer_News button a {
@@ -84,10 +93,19 @@ span {
   width: 1px;
 }
 
+.copyright {
+  background: #7b3f00;
+  opacity: 0.8;
+  padding-top: 0.789rem;
+  padding-bottom: 0.789rem;
+}
+
 .copyright p {
   align-items: center;
   text-align: center;
   opacity: 0.8;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.789rem;
+  letter-spacing: 1px;
+  color: #fff;
 }
