@@ -1,0 +1,43 @@
+.hero_About {
+  width: 100%;
+  background-image: url(../../../Images/aboutbg.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #524d4d;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
+}
+
+.hero_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 13rem;
+}
+
+.hero_Wrapper h5 {
+  color: #7b3f00;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  /* padding-bottom: 15px; */
+  line-height: 45px;
+}
+
+.hero_Wrapper h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+  line-height: 45px;
+}
+
+.hero_Wrapper p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  width: 50%;
+}

@@ -17,7 +17,7 @@ const Mission = () => {
             minus, accusamus rem asperiores labore earum sint iusto tempore nam
             maiores ratione nobis? Maiores
           </p>
-          <Link>
+          <Link to="/about">
             <button>Read More</button>
           </Link>
         </div>

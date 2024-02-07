@@ -1,0 +1,35 @@
+.vision_Container {
+  background: #fafafa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.vision_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.vision_Mission {
+  display: flex;
+  flex-direction: row;
+  gap: 17rem;
+}
+
+.vision_Mission h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+.vision_Text p {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  margin-top: 2rem;
+}
+
+.vision_Wrapper hr {
+  margin-top: 3rem;
+}
