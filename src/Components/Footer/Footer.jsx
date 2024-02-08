@@ -1,7 +1,11 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import { Link } from "react-router-dom";
-// import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import {
+  FaSquareXTwitter,
+  FaSquareFacebook,
+  FaLinkedin,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -15,7 +19,23 @@ const Footer = () => {
       </div>
       <div className={classes.footer}>
         <div className={classes.foot}>
-          <h2>Natijah Minerals Nigeria Limited.</h2>
+          <div className={classes.socials}>
+            <p>
+              <a href="">
+                <FaSquareXTwitter />
+              </a>
+            </p>
+            <p>
+              <a href="">
+                <FaSquareFacebook />
+              </a>
+            </p>
+            <p>
+              <a href="">
+                <FaLinkedin />
+              </a>
+            </p>
+          </div>
           <span></span>
           <div className={classes.address}>
             <h4>MAIN OFFICE LOCATION</h4>

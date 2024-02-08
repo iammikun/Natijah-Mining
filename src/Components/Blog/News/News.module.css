@@ -1,0 +1,65 @@
+.news_Section {
+  width: 100%;
+  margin-bottom: 10rem;
+  margin-top: 4rem;
+}
+
+.news_Content {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.news_Content .card {
+  background-color: #fafafa;
+  cursor: pointer;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  border: 1px solid #e5eaed;
+  box-shadow: 0 4px 8px #e5eaed;
+  transition: transform 0.43s ease-out;
+  margin-top: -1rem;
+}
+
+.news_Content h4 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+.news_Content p {
+  color: #000;
+  font-size: 0.809rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.card .button {
+  text-decoration: none;
+}
+
+.card .button button {
+  background: #7b3f00;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  font-size: 0.789rem;
+  opacity: 0.8;
+}
+
+.card .button button:hover {
+  opacity: 10;
+}

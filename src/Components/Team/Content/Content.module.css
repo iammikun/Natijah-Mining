@@ -1,0 +1,32 @@
+.content_Container {
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: #fafafa;
+}
+
+.content_Content,
+.content_Cont {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content_Img h4 {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 45px;
+}
+
+.content_Img p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  font-size: 0.789rem;
+}
+
+.content_Cont {
+  margin-top: 4rem;
+}

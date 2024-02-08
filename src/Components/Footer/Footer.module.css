@@ -87,6 +87,25 @@
   opacity: 0.6;
 }
 
+.foot .socials {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.foot .socials p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.foot .socials a {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
 span {
   background-color: #676464;
   height: 5rem;
