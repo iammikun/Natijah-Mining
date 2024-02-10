@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Button from "../Button/Button";
 import classes from "./Nav.module.css";
 
 const Nav = () => {
@@ -21,6 +22,7 @@ const Nav = () => {
         <li>
           <Link to="/blog">Blog</Link>
         </li>
+        <Button />
       </ul>
     </nav>
   );

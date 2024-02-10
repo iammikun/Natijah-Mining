@@ -41,3 +41,50 @@
   line-height: 28px;
   width: 50%;
 }
+
+@media screen and (max-width: 1440px) {
+  .hero_Wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .hero_Wrapper {
+    padding-top: 9rem;
+  }
+
+  .hero_Wrapper p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero_Wrapper {
+    padding-top: 8rem;
+  }
+
+  .hero_Wrapper p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero_Wrapper {
+    padding-top: 7.5rem;
+  }
+
+  .hero_Wrapper h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.2353;
+  }
+
+  .hero_Wrapper p {
+    font-size: 0.919rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero_Wrapper {
+    padding-top: 7rem;
+  }
+}

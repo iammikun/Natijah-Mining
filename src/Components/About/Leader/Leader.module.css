@@ -50,3 +50,24 @@
   line-height: 28px;
   font-size: 0.789rem;
 }
+
+@media screen and (max-width: 600px) {
+  .leader_Container {
+    margin-top: 5rem;
+  }
+
+  .leader_Image {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .leader_Image {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .leader_Image img {
+    width: 60%;
+  }
+}

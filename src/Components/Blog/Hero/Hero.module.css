@@ -41,3 +41,40 @@
   line-height: 28px;
   width: 50%;
 }
+
+@media screen and (max-width: 1440px) {
+  .news_Wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .news_Wrapper {
+    padding-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .news_Wrapper {
+    padding-top: 14rem;
+  }
+
+  .news_Wrapper p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news_Wrapper {
+    padding-top: 12rem;
+  }
+
+  .news_Wrapper h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.2353;
+  }
+
+  .news_Wrapper p {
+    font-size: 0.919rem;
+  }
+}

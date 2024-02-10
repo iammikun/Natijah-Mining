@@ -59,3 +59,40 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .what_Wrapper {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .what_Wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .what_Wrapper {
+    width: 90%;
+  }
+
+  .what_Wrapper h2 {
+    font-size: 2rem !important;
+    line-height: 1.2353;
+  }
+
+  .what_Wrapper p {
+    font-size: 0.919rem;
+  }
+
+  .what_Wrapper button {
+    font-size: 0.919rem;
+  }
+
+  .what_Wrapper hr {
+    width: 20%;
+    height: 3px;
+    margin-top: 1rem;
+  }
+}

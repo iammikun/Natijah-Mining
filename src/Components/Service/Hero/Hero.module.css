@@ -32,3 +32,40 @@
   width: 50%;
   line-height: 25px;
 }
+
+@media screen and (max-width: 1440px) {
+  .hero_Wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .hero_Wrapper {
+    padding-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero_Wrapper {
+    padding-top: 14rem;
+  }
+
+  .hero_Wrapper p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero_Wrapper {
+    padding-top: 12rem;
+  }
+
+  .hero_Wrapper h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.2353;
+  }
+
+  .hero_Wrapper p {
+    font-size: 0.919rem;
+  }
+}

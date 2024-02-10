@@ -32,3 +32,40 @@
   width: 50%;
   line-height: 25px;
 }
+
+@media screen and (max-width: 1440px) {
+  .hero_Hero {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .hero_Hero {
+    padding-top: 17rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .hero_Hero {
+    padding-top: 17rem;
+  }
+
+  .hero_Hero h2 {
+    padding-bottom: 1px;
+  }
+
+  .hero_Hero p {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero_Hero h2 {
+    font-size: 1.8rem !important;
+    line-height: 1.2353;
+  }
+
+  .hero_Hero p {
+    font-size: 0.919rem;
+  }
+}

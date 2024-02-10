@@ -80,3 +80,71 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .mission_Wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .mission_Wrapper {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    gap: 3rem;
+  }
+
+  .mission_Text button {
+    margin-top: 1rem;
+  }
+
+  .mission_Text p {
+    margin-top: 1rem;
+  }
+
+  .mission_Text hr {
+    margin-top: 1rem;
+  }
+
+  .img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .mission_Wrapper {
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .mission_Text {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mission_Text h2 {
+    font-size: 2rem !important;
+    line-height: 1.2353;
+  }
+
+  .mission_Text p {
+    font-size: 0.919rem;
+  }
+
+  .mission_Text button {
+    font-size: 0.919rem;
+  }
+
+  .mission_Text hr {
+    width: 20%;
+    height: 3px;
+    margin-top: 1rem;
+  }
+}

@@ -41,7 +41,7 @@ const Footer = () => {
             <h4>MAIN OFFICE LOCATION</h4>
             <p>69 Yonge Street, Suite 1010 Toronto, ON M5E 1K3</p>
           </div>
-          <span>.</span>
+          <span></span>
           <div className={classes.address}>
             <h4>CONTACT PHONE</h4>
             <p>TF: +1 647-992-9837</p>
@@ -54,7 +54,8 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.copyright}>
-        <p>© copyright 2024. All rights reserved.</p>
+        <p>© copyright 2024.</p>
+        <p>All rights reserved.</p>
       </div>
     </>
   );

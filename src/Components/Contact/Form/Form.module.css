@@ -77,3 +77,27 @@
 .image img {
   width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+  .contact_Text,
+  .location,
+  .loca {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact_Text h2 {
+    font-size: 2rem;
+  }
+
+  .contact_Text p {
+    font-size: 0.919rem;
+  }
+
+  .location .info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

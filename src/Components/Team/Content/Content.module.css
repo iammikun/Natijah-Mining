@@ -30,3 +30,26 @@
 .content_Cont {
   margin-top: 4rem;
 }
+
+@media screen and (max-width: 900px) {
+  .content_Content,
+  .content_Cont {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content_Content,
+  .content_Cont {
+    width: 100%;
+  }
+
+  .content_Img {
+    width: 100%;
+  }
+
+  .content_Img h4 {
+    line-height: 15px;
+    margin-top: 16px;
+  }
+}

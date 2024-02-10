@@ -1,8 +1,8 @@
 import React from "react";
-import canaan from "../../../Images/Canaan.png";
-import bitmain from "../../../Images/Bitmain.png";
-import scilicon from "../../../Images/scilicon.png";
-import microBT from "../../../Images/MicroBT.png";
+import tianneng from "../../../Images/tianneng.jpeg";
+import highland from "../../../Images/highland.jpeg";
+import xiamen from "../../../Images/xiamen.jpeg";
+import aishi from "../../../Images/aishi.jpeg";
 import classes from "./Partner.module.css";
 
 const Partner = () => {
@@ -11,10 +11,10 @@ const Partner = () => {
       <h2>Our Partners</h2>
       <hr />
       <div className={classes.partner_Wrapper}>
-        <img src={canaan} alt="" />
-        <img src={bitmain} alt="" />
-        <img src={scilicon} alt="" />
-        <img src={microBT} alt="" />
+        <img src={tianneng} alt="" />
+        <img src={highland} alt="" />
+        <img src={xiamen} alt="" />
+        <img src={aishi} alt="" className={classes.last} />
       </div>
     </div>
   );

@@ -38,3 +38,50 @@
 .content_Services {
   width: 50%;
 }
+
+@media screen and (max-width: 1440px) {
+  .content_Wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content_Service {
+    gap: 1.5rem;
+  }
+
+  .content_Card h2 {
+    font-size: 2.4rem;
+  }
+
+  .content_Service {
+    margin-top: 2rem;
+  }
+
+  .content_Service img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .content_Service {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content_Card {
+    width: 100%;
+  }
+
+  .content_Card h2 {
+    font-size: 2rem;
+  }
+
+  .content_Card p {
+    font-size: 0.919rem;
+  }
+
+  .content_Container img {
+    width: 100%;
+  }
+}

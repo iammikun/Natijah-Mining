@@ -63,3 +63,28 @@
 .card .button button:hover {
   opacity: 10;
 }
+
+@media screen and (max-width: 1330px) {
+  .news_Content {
+    gap: 1.5rem;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .news_Content {
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news_Section {
+    margin-top: 0.11rem;
+  }
+
+  .news_Content {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+}

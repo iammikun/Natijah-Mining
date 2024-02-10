@@ -61,6 +61,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .foot h2 {
@@ -117,6 +118,11 @@ span {
   opacity: 0.8;
   padding-top: 0.789rem;
   padding-bottom: 0.789rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
 }
 
 .copyright p {
@@ -127,4 +133,76 @@ span {
   font-size: 0.789rem;
   letter-spacing: 1px;
   color: #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer .foot {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footer_News input {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 0.489rem;
+    padding: 20px 10px;
+  }
+
+  .footer_News button {
+    background: #e39608;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 80%;
+  }
+
+  .footer .foot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span {
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.2;
+  }
+
+  .foot .socials a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer_News input {
+    width: 95%;
+  }
+
+  .footer_News button {
+    width: 95%;
+  }
+
+  .footer_News h4 {
+    font-size: 1.4rem !important;
+    line-height: 1.2353;
+  }
+
+  .copyright {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .why_Text p {
+    font-size: 0.919rem;
+  }
+
+  .why_Text hr {
+    width: 20%;
+    height: 3px;
+    margin-top: 1rem;
+  }
 }
