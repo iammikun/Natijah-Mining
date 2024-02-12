@@ -11,35 +11,30 @@ const Service = () => {
         <div className={classes.service_Cards}>
           <div className={classes.card}>
             <FaLandMineOn className={classes.icon} />
-            <h4>Mining Center</h4>
+            <h4>Trading And Mining Of Industrial Minerals</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              accusantium consectetur? Cum, ut temporibus in, numquam doloremque
-              autem dignissimos totam id tempore qui a amet corporis doloribus
-              fuga unde asperiores ea fugiat esse labore itaque repellat?
-              Blanditiis perspiciatis
+              Over the years, we have been successfully engaged in the
+              exploration, exploitation, buying, selling and export of
+              industrial minerals like Lead Ore, Zinc Ore, and Lithium Ore both
+              locally in Nigeria and Morocco, as well as internationally.
             </p>
           </div>
           <div className={classes.card}>
             <FaResolving className={classes.icon} />
-            <h4>Data Center Operations</h4>
+            <h4>Trading Of Minor Metals</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              accusantium consectetur? Cum, ut temporibus in, numquam doloremque
-              autem dignissimos totam id tempore qui a amet corporis doloribus
-              fuga unde asperiores ea fugiat esse labore itaque repellat?
-              Blanditiis perspiciatis
+              We have traded in minor metals very profitably, buying, selling
+              and exporting directly to our growing client base. We have majorly
+              dealt in the trade of Tin Ore, Columbite, Monazite, and Tantalite.
             </p>
           </div>
           <div className={classes.card}>
             <FaNetworkWired className={classes.icon} />
             <h4>Mining Center Solutions</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-              accusantium consectetur? Cum, ut temporibus in, numquam doloremque
-              autem dignissimos totam id tempore qui a amet corporis doloribus
-              fuga unde asperiores ea fugiat esse labore itaque repellat?
-              Blanditiis perspiciatis
+              In our trading processes, we proffer Ex-Warehousing, Free-On-
+              Board (FOB), and Cost, Insurance and Freight (CIF) services to our
+              clients as their needs may demand.
             </p>
           </div>
         </div>

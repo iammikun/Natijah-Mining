@@ -14,28 +14,26 @@ const Form = () => {
         </div>
         <div className={classes.location}>
           <div className={classes.info}>
-            <Link to="mailto:">
+            <a href="mailto:info@natijahminerals.com">
               <FaMessage className={classes.icon} />
-              info@example.com
-            </Link>
-            <Link to="tel:">
+              natijahminerals@yahoo.com{" "}
+            </a>
+            <a href="tel:">
               <FaPhone className={classes.icon} />
-              +234 (09) 290 4738 , 09-2904748{" "}
-            </Link>
+              +234 803 6226 767
+            </a>
           </div>
         </div>
         <div className={classes.loca}>
           <div className={classes.info}>
             <Link to="mailto:">
               <FaLocationDot className={classes.icon} />
-              2nd Floor, NEXIM House Plot 975, <br /> Cadastral Zone A0 Central{" "}
-              <br />
-              Business district Abuja.{" "}
+              40, Murtala Mohammed Way, Jos, Plateau State. <br />
             </Link>
-            <Link to="tel:">
+            <a href="tel:">
               <FaPhone className={classes.icon} />
-              +234 (09) 290 4738 , 09-2904748{" "}
-            </Link>
+              +234 803 6226 767
+            </a>
           </div>
         </div>
       </div>

@@ -11,24 +11,28 @@ const AboutContent = () => {
           <h2>Mission</h2>
           <div className={classes.about_Text}>
             <p>
-              The world of technology advances at a fast pace, and we are moving
-              into the Fourth Industrial Revolution, an era in which
-              digitization and technology will affect us in all spheres of life
-              and become embedded within societies.
+              At Natijah Minerals Nigeria Limited, we are dedicated to building
+              a brighter future for our students. Our mission is to create a
+              global network of learners who are empowered, enlightened, and
+              ready to make a positive impact on society.
             </p>
             <p>
-              A significant technological progress of humanity is the blockchain
-              technology and the technology of artificial intelligence. It is
-              probably beyond our imagination to think about what our
-              environment and our societies will look like in a few decades from
-              now.
+              We work to ensure that our clients have unfettered access to the
+              highest quality of solid minerals applicable for their use under
+              the most demanding conditions. Our commitment to ensuring that we
+              provide the highest standards is evident to our work.
             </p>
             <p>
-              At Bitkern, we have dedicated ourselves to this exciting topic.
-              The goal of Bitkern is to take up, develop and advance
-              technologies that are valuable to humanity. Our focus is primarily
-              on decentralized technologies, such as blockchain technology –
-              technologies by people for people.
+              We believe that the success of our business is determined by the
+              satisfaction of our customers. We are pleased when our customers
+              are pleased. Hence we work with our clients to know their specific
+              needs and to our best to ensure their satisfaction.
+            </p>
+            <p>
+              As a business, we seek to be profitable while giving our customers
+              good deals that also contribute to their own profitability. This
+              shows in our pricing and processes designed to ensure mutual
+              profitability.
             </p>
           </div>
         </div>

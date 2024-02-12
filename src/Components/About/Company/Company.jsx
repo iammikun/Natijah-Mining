@@ -9,24 +9,23 @@ const Company = () => {
           <h2>Company</h2>
           <div className={classes.company_Text}>
             <p>
-              The world of technology advances at a fast pace, and we are moving
-              into the Fourth Industrial Revolution, an era in which
-              digitization and technology will affect us in all spheres of life
-              and become embedded within societies.
+              As a business venture committed to excellent service delivery
+              within the solid mineral sector, we embrace innovation, global
+              collaboration, and a focus on harnessing untapped potential. Our
+              unique value lies in our combination of vast experience,
+              expertise, knowledge of the terrain, as well as easy access to
+              resources.
             </p>
             <p>
-              A significant technological progress of humanity is the blockchain
-              technology and the technology of artificial intelligence. It is
-              probably beyond our imagination to think about what our
-              environment and our societies will look like in a few decades from
-              now.
+              At Natiijah, we are active in the trade of industrial minerals,
+              minor metals, as well as exploration with operational sites for
+              Zinc in Gombe, and Lithium in Abuja, both in Nigeria.
             </p>
             <p>
-              At Bitkern, we have dedicated ourselves to this exciting topic.
-              The goal of Bitkern is to take up, develop and advance
-              technologies that are valuable to humanity. Our focus is primarily
-              on decentralized technologies, such as blockchain technology –
-              technologies by people for people.
+              Our business partnerships cut across both the local and
+              international spaces. Some of our international partners include
+              Tianneng Nigeria Ltd, Xiamen ITG Nonferrous Metals and Minerals
+              Co, Aihua International Group, and Highland Resources Ltd.
             </p>
           </div>
         </div>

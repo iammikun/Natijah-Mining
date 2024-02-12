@@ -9,8 +9,8 @@ const Hero = () => {
         <h5>NATIJAH NEWS & BLOG</h5>
         <h2>Informations and Insights</h2>
         <p>
-          Get news and read about developments in HPC and dive into articles
-          abount A.I. and crypto-related topics.
+          Get news and read about minerals mined in Nigeria and abroad and dive
+          into articles about A.I. and other mining-related topics.
         </p>
       </div>
     </div>

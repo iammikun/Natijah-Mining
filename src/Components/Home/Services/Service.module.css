@@ -46,6 +46,7 @@
   border: 1px solid #e5eaed;
   box-shadow: 0 4px 8px #e5eaed;
   transition: transform 0.43s ease-out;
+  width: 70%;
 }
 
 .service_Cards .card:hover {
@@ -96,11 +97,21 @@
     flex-wrap: wrap;
     gap: 3rem;
   }
+
+  .service_Cards .card {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .service_Cards {
     gap: 1.5rem;
+  }
+
+  .service_Cards .card {
+    width: 95%;
+    margin: 0 auto;
   }
 
   .service_Wrapper h2 {

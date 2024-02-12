@@ -9,9 +9,10 @@ const Hero = () => {
         <h2>The Company</h2>
         <h2>The Vision - The Mission</h2>
         <p>
-          Natijah is your partner in the world of Mining mineral resources
-          Technology and Artificial Intelligence and specializes in the
-          construction and operation of high-performance data centers.
+          Through innovation, global collaboration, and a focus on empowerment,
+          we differentiate ourselves by offering our unique experience in the
+          sector ensuring that our clients can go to rest as we journey
+          together.
         </p>
       </div>
     </div>

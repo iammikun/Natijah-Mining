@@ -1,0 +1,30 @@
+.slider_Container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 13rem;
+  padding-bottom: 2rem;
+  /* gap: 2rem; */
+}
+
+.slider_Container .slider_Card {
+  margin: 0 auto;
+}
+
+.slider_Container p {
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slider_Container img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .slider_Container {
+    width: 85%;
+  }
+}

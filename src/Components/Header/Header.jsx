@@ -1,11 +1,13 @@
-import React from "react";
 import Logo from "../Logo/Logo";
+import React, { useState } from "react";
 import Nav from "../Nav/Nav";
 import classes from "./Header.module.css";
 import { Link } from "react-router-dom";
 import { FaPhone, FaMessage } from "react-icons/fa6";
 
 const Header = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
     <div className={classes.header_Container}>
       <div className={classes.copyright}>
@@ -20,7 +22,12 @@ const Header = () => {
       </div>
       <div className={classes.header_Wrapper}>
         <Logo />
-        <Nav />
+        <Nav toggle={toggle} />
+        <div onClick={() => setToggle(!toggle)} className={classes.hamburger}>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+        </div>
       </div>
     </div>
   );

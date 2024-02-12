@@ -5,12 +5,11 @@ const Hero = () => {
   return (
     <div className={classes.hero_Container}>
       <div className={classes.hero_Wrapper}>
-        <h2>Mining Hardware & Hosting Services</h2>
+        <h2>Global leader in the solid minerals</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, qui!
-          Fuga, officia ipsa ad veritatis numquam adipisci consequuntur
-          repudiandae nulla nemo sapiente quibusdam quam quo neque velit minus
-          ipsam aliquid.
+          Providing our local and international clientele with the best
+          obtainable solid minerals to make their business of building and
+          engendering industrial transformation easy.
         </p>
       </div>
     </div>

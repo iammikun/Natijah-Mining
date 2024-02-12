@@ -11,11 +11,10 @@ const Mission = () => {
           <h2>Our Mission</h2>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
-            pariatur excepturi? Dolor delectus molestias dolorum assumenda ad.
-            Odio beatae, recusandae repellendus architecto placeat voluptatem
-            minus, accusamus rem asperiores labore earum sint iusto tempore nam
-            maiores ratione nobis? Maiores
+            At Natijah Minerals Nigeria Limited, we are dedicated to building a
+            brighter future for our students. Our mission is to create a global
+            network of learners who are empowered, enlightened, and ready to
+            make a positive impact on society.
           </p>
           <Link to="/about">
             <button>Read More</button>

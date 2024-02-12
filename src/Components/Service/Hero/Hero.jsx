@@ -6,8 +6,9 @@ const Hero = () => {
     <div className={classes.hero_Service}>
       <div className={classes.hero_Wrapper}>
         {" "}
+        <h5>Our Services</h5>
         <h2>Natijah Minerals Services</h2>
-        <p>Your reliable partner. First-class mining since 2017.</p>
+        <p>We differentiate ourselves by offering our unique experience</p>
       </div>
     </div>
   );

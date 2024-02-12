@@ -6,19 +6,16 @@ const What = () => {
   return (
     <div className={classes.what_Container}>
       <div className={classes.what_Wrapper}>
-        <h2>What We Are</h2>
+        <h2>Who We Are</h2>
         <hr />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
-          aperiam tempora, error autem nulla recusandae asperiores reprehenderit
-          maiores porro quasi pariatur deleniti necessitatibus ex ipsum sit
-          omnis, corporis possimus fugiat. Quas velit dolorum fuga molestiae id
-          consequuntur facere, dolores porro sint molestias natus reiciendis?
-          Accusantium vitae architecto repudiandae ab totam iure, quod corrupti
-          voluptate tempore quis amet. Sit temporibus adipisci quisquam facilis
-          blanditiis rerum fugiat, velit quo perspiciatis quasi, veniam
-          doloribus illo quae repellat? Aut nisi consequuntur reiciendis veniam
-          eaque fuga.
+          NATIJAH MINERALS NIG. LTD is an indigenous licensed company registered
+          in 2008 under the Corporate Affairs Commission of Nigeria for the
+          purpose of solid minerals mining and trading in Nigeria and around the
+          world, with its subsidiary NATIJAH MINERAL MOROCCO. With a vision to
+          become Africa’s premier mineral mining and solid minerals trading
+          company, we are an international business with imprints across Nigeria
+          (West Africa), Morocco (North Africa), and China (East Asia).
         </p>
         <Link to="/about">
           <button>Read More</button>
