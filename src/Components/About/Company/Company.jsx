@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Company.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Company = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div className={classes.company_Container}>
       <div className={classes.company_Wrapper}>
         <div className={classes.company_Mission}>
-          <h2>Company</h2>
-          <div className={classes.company_Text}>
+          <h2 data-aos="fade-right">Company</h2>
+          <div className={classes.company_Text} data-aos="fade-left">
             <p>
               As a business venture committed to excellent service delivery
               within the solid mineral sector, we embrace innovation, global

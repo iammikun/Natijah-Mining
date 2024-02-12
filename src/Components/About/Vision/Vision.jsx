@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Vision.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Vision = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div className={classes.vision_Container}>
       <div className={classes.vision_Wrapper}>
         <div className={classes.vision_Mission}>
-          <h2>Vision</h2>
-          <div className={classes.vision_Text}>
+          <h2 data-aos="fade-right">Vision</h2>
+          <div className={classes.vision_Text} data-aos="fade-left">
             <p>
               To become Africa’s premier solid minerals mining and trading
               company. At Natijah Minerals Nigeria Limited, it is our vision to

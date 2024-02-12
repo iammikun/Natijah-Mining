@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./News.module.css";
 import newsOne from "../../../Images/newsOne.jpg";
 // import newTwo from "../../../Images/newTwo.jpg";
 import newsThree from "../../../Images/newsThree.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const News = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
-    <div className={classes.news_Section}>
+    <div className={classes.news_Section} data-aos="fade-right">
       <div className={classes.news_Content}>
-        <div>
+        <div data-aos="fade-right">
           <a href="https://www.bitkern.com/en/news" target="_blank">
             <img src={newsOne} alt="" />
           </a>
@@ -20,7 +25,7 @@ const News = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <a href="https://www.bitkern.com/en/news">
             <img src={newsOne} alt="" />
           </a>
@@ -35,7 +40,7 @@ const News = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-right">
           <a href="">
             <img src={newsThree} alt="" />
           </a>

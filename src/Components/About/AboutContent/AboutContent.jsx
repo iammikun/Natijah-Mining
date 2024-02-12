@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./AboutContent.module.css";
 import Vision from "../Vision/Vision";
 import Company from "../Company/Company";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutContent = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div className={classes.about_Container}>
       <div className={classes.about_Wrapper}>
         <div className={classes.about_Mission}>
-          <h2>Mission</h2>
-          <div className={classes.about_Text}>
+          <h2 data-aos="fade-right">Mission</h2>
+          <div className={classes.about_Text} data-aos="fade-left">
             <p>
               At Natijah Minerals Nigeria Limited, we are dedicated to building
               a brighter future for our students. Our mission is to create a

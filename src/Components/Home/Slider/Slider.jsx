@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "./slick.css";
 import "./slick-theme.css";
 import classes from "./Slider.module.css";
-import cardOne from "../../../Images/cardOne.jpg";
-import cardTwo from "../../../Images/cardTwo.jpg";
-import cardThree from "../../../Images/cardThree.jpg";
-import cardFour from "../../../Images/cardFour.jpg";
+import slideOne from "../../../Images/slideOne.jpg";
+import slideTwo from "../../../Images/slideTwo.jpg";
+import slideThree from "../../../Images/slideThree.jpg";
+import slideFour from "../../../Images/slideFour.jpg";
 
 export default function SimpleSlider() {
   var settings = {
@@ -49,7 +49,11 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings} className={classes.slider_Container}>
       <div className={classes.slider_Card}>
-        <img src={cardOne} alt="" />
+        <img src={slideOne} alt="" />
+        <p>Tantalite</p>
+      </div>
+      <div>
+        <img src={slideTwo} alt="" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
           quaerat, in iure dolorum rerum quam dolorem nulla eum ipsa facere
@@ -57,28 +61,12 @@ export default function SimpleSlider() {
         </p>
       </div>
       <div>
-        <img src={cardTwo} alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-          quaerat, in iure dolorum rerum quam dolorem nulla eum ipsa facere
-          nostrum delectus earum quod sequi animi sunt perferendis rem.
-        </p>
+        <img src={slideThree} alt="" />
+        <p>Tin Ore</p>
       </div>
       <div>
-        <img src={cardThree} alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-          quaerat, in iure dolorum rerum quam dolorem nulla eum ipsa facere
-          nostrum delectus earum quod sequi animi sunt perferendis rem.
-        </p>
-      </div>
-      <div>
-        <img src={cardFour} alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-          quaerat, in iure dolorum rerum quam dolorem nulla eum ipsa facere
-          nostrum delectus earum quod sequi animi sunt perferendis rem.
-        </p>
+        <img src={slideFour} alt="" />
+        <p>Columbite</p>
       </div>
     </Slider>
   );

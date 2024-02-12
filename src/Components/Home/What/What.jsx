@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./What.module.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const What = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2500 });
+  }, []);
   return (
     <div className={classes.what_Container}>
       <div className={classes.what_Wrapper}>
-        <h2>Who We Are</h2>
-        <hr />
-        <p>
+        <h2 data-aos="fade-right">Who We Are</h2>
+        <hr data-aos="fade-right" />
+        <p data-aos="fade-left">
           NATIJAH MINERALS NIG. LTD is an indigenous licensed company registered
           in 2008 under the Corporate Affairs Commission of Nigeria for the
           purpose of solid minerals mining and trading in Nigeria and around the
@@ -18,7 +23,7 @@ const What = () => {
           (West Africa), Morocco (North Africa), and China (East Asia).
         </p>
         <Link to="/about">
-          <button>Read More</button>
+          <button data-aos="flip-left">Read More</button>
         </Link>
       </div>
     </div>

@@ -27,54 +27,6 @@
   }
 
   .show_Nav {
-    display: block;
-  }
-
-  .show_Nav {
-    position: absolute;
-    height: 80vh;
-    width: 100vw;
-    background: #fafafa;
-    top: 0;
-    right: 0;
-    margin: 140px 0;
-    z-index: 100;
-    transition: transform 0.5s ease-in 0.4s;
-    animation: slide-in 0.5s ease-in-out;
-  }
-
-  @keyframes slide-in {
-    from {
-      transform: translateX(100%);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-
-  .show_Nav ul,
-  .nav_Container ul {
-    flex-direction: column;
-    display: flex;
-    width: 96%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .show_Nav ul li {
-    list-style: none;
-    margin: 32px 0;
-    width: 100%;
-  }
-
-  .show_Nav ul li a {
-    color: #000;
-    line-height: 19px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+    display: none;
   }
 }
