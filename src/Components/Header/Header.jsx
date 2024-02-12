@@ -12,21 +12,8 @@ const Header = () => {
     AOS.init({ duration: 2500 });
   }, []);
 
-  const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
-  const [menu_class, setMenuClass] = useState("menu hidden");
-  const [isMenuClicked, setIsMenuClicked] = useState(false);
-
-  const updateMenu = () => {
-    if (!isMenuClicked) {
-      setBurgerClass("burger-bar clicked");
-      setMenuClass("menu visible");
-    } else {
-      setBurgerClass("burger-bar unclicked");
-      setMenuClass("menu hidden");
-    }
-
-    setIsMenuClicked(!isMenuClicked);
-  };
+  // const [toggle, setToggle] = useState(true);
+  const [active, setActive] = useState(false);
 
   return (
     <div className={classes.header_Container} data-aos="fade-down">
@@ -43,13 +30,13 @@ const Header = () => {
       <div className={classes.header_Wrapper}>
         <Logo />
         <Nav />
-        <div className={classes.burger_Menu} onClick={updateMenu}>
-          <div className={classes.burger_class}></div>
-          <div className={classes.burger_class}></div>
-          <div className={classes.burger_class}></div>
+        <div onClick={() => setActive(!active)} className={classes.hamburger}>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
+          <span className={classes.horizontal}></span>
         </div>
       </div>
-      <nav className={classes.show_Nav}>
+      <nav className={active ? classes.activeSide_Nav : classes.show_Nav}>
         <ul>
           <li>
             <Link to="/">Home</Link>

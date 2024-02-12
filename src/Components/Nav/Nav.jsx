@@ -5,13 +5,16 @@ import classes from "./Nav.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Nav = ({ toggled }) => {
+const Nav = ({ toggle }) => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <>
-      <nav className={classes.nav_Container} data-aos="fade-down">
+    <div
+      className={!toggle ? classes.nav_Container : classes.show_Nav}
+      data-aos="fade-down"
+    >
+      <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -31,7 +34,7 @@ const Nav = ({ toggled }) => {
           <Button />
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

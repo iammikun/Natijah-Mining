@@ -1,3 +1,10 @@
+.nav_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav_Container ul {
   display: flex;
   flex-direction: row;
@@ -23,10 +30,6 @@
 
 @media screen and (max-width: 1070px) {
   .nav_Container {
-    display: none;
-  }
-
-  .show_Nav {
     display: none;
   }
 }
