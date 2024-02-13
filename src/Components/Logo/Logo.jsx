@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import logo from "../../Images/logo.jpg";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
 import classes from "./Logo.module.css";
 
@@ -9,9 +10,9 @@ const Logo = () => {
     AOS.init({ duration: 2500 });
   }, []);
   return (
-    <div className={classes.logo} data-aos="fade-right">
-      <img src={logo} alt="" />
-    </div>
+    <Link to="/" className={classes.logo} data-aos="fade-right">
+      <img src={logo} alt="" loading="lazy" />
+    </Link>
   );
 };
 

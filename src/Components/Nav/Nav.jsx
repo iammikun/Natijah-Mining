@@ -9,6 +9,7 @@ const Nav = ({ toggle }) => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
     <div
       className={!toggle ? classes.nav_Container : classes.show_Nav}

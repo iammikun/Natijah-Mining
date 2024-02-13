@@ -26,7 +26,7 @@ const Mission = () => {
           </Link>
         </div>
         <div className={classes.img}>
-          <img src={mission} alt="" data-aos="fade-left" />
+          <img src={mission} alt="" data-aos="fade-left" loading="lazy" />
         </div>
       </div>
     </div>

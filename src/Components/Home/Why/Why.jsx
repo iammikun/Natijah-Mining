@@ -23,7 +23,7 @@ const Why = () => {
           </p>
         </div>
         <div className={classes.why_Img}>
-          <img src={why} alt="" data-aos="fade-left" />
+          <img src={why} alt="" data-aos="fade-left" loading="lazy" />
         </div>
       </div>
     </div>

@@ -25,10 +25,10 @@ const Content = () => {
               locally in Nigeria and Morocco, as well as internationally.
             </p>
           </div>
-          <img src={cardOne} alt="" data-aos="fade-left" />
+          <img src={cardOne} alt="" data-aos="fade-left" loading="lazy" />
         </div>
         <div className={classes.content_Service}>
-          <img src={cardTwo} alt="" data-aos="fade-right" />
+          <img src={cardTwo} alt="" data-aos="fade-right" loading="lazy" />
           <div className={classes.content_Card}>
             <h2 data-aos="fade-left"> 2. Trading Of Minor Metals</h2>
             <p data-aos="fade-left">
@@ -47,7 +47,7 @@ const Content = () => {
               clients as their needs may demand.
             </p>
           </div>
-          <img src={cardThree} alt="" data-aos="fade-left" />
+          <img src={cardThree} alt="" data-aos="fade-left" loading="lazy" />
         </div>
       </div>
     </div>

@@ -11,11 +11,27 @@
   margin: 0 auto;
 }
 
-.slider_Container p {
-  margin-top: 1rem;
+.slider_Container h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.slider_Container p {
+  margin-top: 0.789rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .slider_Container img {

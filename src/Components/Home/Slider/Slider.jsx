@@ -4,7 +4,7 @@ import "./slick.css";
 import "./slick-theme.css";
 import classes from "./Slider.module.css";
 import slideOne from "../../../Images/slideOne.jpg";
-import slideTwo from "../../../Images/slideTwo.jpg";
+// import slideTwo from "../../../Images/slideTwo.jpg";
 import slideThree from "../../../Images/slideThree.jpg";
 import slideFour from "../../../Images/slideFour.jpg";
 
@@ -16,7 +16,7 @@ export default function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
 
     responsive: [
       {
@@ -49,24 +49,31 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings} className={classes.slider_Container}>
       <div className={classes.slider_Card}>
-        <img src={slideOne} alt="" />
-        <p>Tantalite</p>
-      </div>
-      <div>
-        <img src={slideTwo} alt="" />
+        <img src={slideOne} alt="" loading="lazy" />
+        <h4>Lead Ore</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit
-          quaerat, in iure dolorum rerum quam dolorem nulla eum ipsa facere
-          nostrum delectus earum quod sequi animi sunt perferendis rem.
+          Lead ore, a dense and malleable mineral, serves as a crucial source of
+          lead, used in batteries, construction, and various industries,
+          contributing to diverse applications in modern society
         </p>
       </div>
       <div>
-        <img src={slideThree} alt="" />
-        <p>Tin Ore</p>
+        <img src={slideThree} alt="" loading="lazy" />
+        <h4>Iron Ore</h4>
+        <p>
+          Iron ore, a vital raw material for steel production, is a naturally
+          occurring mineral with high iron content, mined globally to fuel the
+          construction and manufacturing industries.
+        </p>
       </div>
       <div>
-        <img src={slideFour} alt="" />
-        <p>Columbite</p>
+        <img src={slideFour} alt="" loading="lazy" />
+        <h4>Columbite</h4>
+        <p>
+          Columbite, a mineral ore, contains tantalum and niobium, vital
+          elements for electronic devices. Mined globally, it plays a key role
+          in technological advancements and manufacturing processes.
+        </p>
       </div>
     </Slider>
   );

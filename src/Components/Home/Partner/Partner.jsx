@@ -16,10 +16,10 @@ const Partner = () => {
       <h2>Our Partners</h2>
       <hr />
       <div className={classes.partner_Wrapper}>
-        <img src={tianneng} alt="" />
-        <img src={highland} alt="" />
-        <img src={xiamen} alt="" />
-        <img src={aishi} alt="" className={classes.last} />
+        <img src={tianneng} alt="" loading="lazy" />
+        <img src={highland} alt="" loading="lazy" />
+        <img src={xiamen} alt="" loading="lazy" />
+        <img src={aishi} alt="" className={classes.last} loading="lazy" />
       </div>
     </div>
   );
