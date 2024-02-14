@@ -30,6 +30,10 @@
   margin-top: 2rem;
 }
 
+.company_Text:last-child {
+  margin-bottom: 3rem;
+}
+
 @media screen and (max-width: 1440px) {
   .company_Wrapper {
     width: 95%;

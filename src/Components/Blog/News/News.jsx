@@ -20,13 +20,17 @@ const News = () => {
           <div className={classes.card}>
             <h4>New Head Office</h4>
             <p>The Bitkern Group moved Head Office to Zug in Switzerland.</p>
-            <a href="" className={classes.button}>
+            <a
+              href="https://www.bitkern.com/en/news"
+              target="_blank"
+              className={classes.button}
+            >
               <button>READ MORE</button>
             </a>
           </div>
         </div>
         <div data-aos="fade-up">
-          <a href="https://www.bitkern.com/en/news">
+          <a href="https://www.bitkern.com/en/news" target="_blank">
             <img src={newsOne} alt="" />
           </a>
           <div className={classes.card}>
@@ -35,13 +39,17 @@ const News = () => {
               The Bitkern Group Announces Groundbreaking Partnership with Kadena
               Mining Club.
             </p>
-            <a href="" className={classes.button}>
+            <a
+              href="https://www.bitkern.com/en/news"
+              target="_blank"
+              className={classes.button}
+            >
               <button>READ MORE</button>
             </a>
           </div>
         </div>
         <div data-aos="fade-right">
-          <a href="">
+          <a href="https://www.bitkern.com/en/news" target="_blank">
             <img src={newsThree} alt="" />
           </a>
           <div className={classes.card}>
@@ -50,7 +58,11 @@ const News = () => {
               Crypto Oxygen and Bitkern Announce Partnership to Deliver
               Cutting-Edge Solutions in Crypto Mining.
             </p>
-            <a href="" className={classes.button}>
+            <a
+              href="https://www.bitkern.com/en/news"
+              target="_blank"
+              className={classes.button}
+            >
               <button>READ MORE</button>
             </a>
           </div>

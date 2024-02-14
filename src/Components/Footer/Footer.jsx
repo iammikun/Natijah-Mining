@@ -52,7 +52,7 @@ const Footer = () => {
           <div className={classes.address}>
             <h4>EMAIL</h4>
             <a href="mailto:info@natijahminerals.com">
-              <p>natijahminerals@yahoo.com</p>
+              <p>INFO@NATIJAHMINERALS.COM</p>
             </a>
           </div>
         </div>

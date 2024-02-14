@@ -21,8 +21,8 @@ const Home = () => {
         <Values />
         <Why />
         <Service />
-        <Partner />
         <Slider />
+        <Partner />
       </div>
     </div>
   );

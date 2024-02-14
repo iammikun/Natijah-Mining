@@ -16,10 +16,18 @@ const Partner = () => {
       <h2>Our Partners</h2>
       <hr />
       <div className={classes.partner_Wrapper}>
-        <img src={tianneng} alt="" loading="lazy" />
-        <img src={highland} alt="" loading="lazy" />
-        <img src={xiamen} alt="" loading="lazy" />
-        <img src={aishi} alt="" className={classes.last} loading="lazy" />
+        <div>
+          <img src={tianneng} alt="" loading="lazy" />
+        </div>
+        <div>
+          <img src={highland} alt="" loading="lazy" />
+        </div>
+        <div>
+          <img src={xiamen} alt="" loading="lazy" />
+        </div>
+        <div>
+          <img src={aishi} alt="" className={classes.last} loading="lazy" />
+        </div>
       </div>
     </div>
   );

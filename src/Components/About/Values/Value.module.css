@@ -40,11 +40,27 @@
 }
 
 .value_Wrapper .value_Box {
-  border: 1px solid #c76d0d;
-  padding: 2rem;
+  border: 1px solid #fafafa;
+  padding: 3rem;
   width: 22%;
   border-radius: 5px;
   cursor: pointer;
+  transition: transform 0.73s ease-out;
+  transition: 0.5s ease-in-out;
+}
+
+.value_Wrapper .value_Box:hover {
+  border: 1px solid #e5eaed;
+  box-shadow: 0 4px 8px #e5eaed;
+  transform: translateY(-13px);
+}
+
+.value_Box .icon {
+  color: #7b3f00;
+  font-size: 3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  opacity: 0.9;
 }
 
 .value_Box p {
@@ -52,6 +68,8 @@
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   line-height: 30px;
+  text-align: center;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1440px) {

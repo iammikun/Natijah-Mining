@@ -28,18 +28,12 @@
 .partner_Wrapper {
   width: 85%;
   margin: 0 auto;
-  margin-top: 5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.partner_Wrapper img {
-  width: 17%;
-}
-
-.partner_Wrapper .last {
-  width: 22%;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 @media screen and (max-width: 1440px) {

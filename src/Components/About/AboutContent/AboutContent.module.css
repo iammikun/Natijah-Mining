@@ -5,6 +5,11 @@
   margin-bottom: 5rem;
 }
 
+.about_Container > hr {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .about_Wrapper {
   width: 85%;
   margin: 0 auto;
@@ -21,7 +26,7 @@
   text-align: center;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  margin-top: 2rem;
+  margin-top: 4.5rem;
 }
 
 .about_Text p {
@@ -31,8 +36,31 @@
   margin-top: 2rem;
 }
 
+.about_Text > p {
+  margin-top: 4.5rem;
+}
+
+.about_Text h3 {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 2.2rem;
+}
+
 .about_Wrapper hr {
   margin-top: 3rem;
+}
+
+.bullet_List {
+  list-style-type: disc; /* Use bullets for each list item */
+  padding-left: 20px; /* Add some padding for spacing */
+}
+
+.bullet_List p {
+  margin-bottom: 0px; /* Add spacing between list items */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 2; /* Adjust line height for readability */
 }
 
 @media screen and (max-width: 1440px) {

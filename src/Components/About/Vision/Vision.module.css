@@ -30,8 +30,22 @@
   margin-top: 2rem;
 }
 
+.vision_Text h3 {
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 2.2rem;
+}
+
 .vision_Wrapper hr {
   margin-top: 3rem;
+}
+
+.bullet_List p {
+  margin-bottom: 0px; /* Add spacing between list items */
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 2; /* Adjust line height for readability */
 }
 
 @media screen and (max-width: 1440px) {
