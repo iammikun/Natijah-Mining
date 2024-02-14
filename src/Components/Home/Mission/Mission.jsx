@@ -16,10 +16,11 @@ const Mission = () => {
           <h2>Our Mission</h2>
           <hr />
           <p data-aos="fade-left">
-            At Natijah Minerals Nigeria Limited, we are dedicated to building a
-            brighter future for our students. Our mission is to create a global
-            network of learners who are empowered, enlightened, and ready to
-            make a positive impact on society.
+            At Natijah Minerals Nigeria Limited, we are dedicated to sourcing
+            and delivering 'A' grade solid minerals for our esteemed clients.
+            Our mission is to exist as a globally viable resource platform for
+            the acquisition and transfer of top quality solid materials required
+            for industrial transformation.
           </p>
           <Link to="/about">
             <button data-aos="flip-left">Read More</button>

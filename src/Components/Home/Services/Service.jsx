@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./Service.module.css";
-import { FaLandMineOn, FaResolving, FaNetworkWired } from "react-icons/fa6";
+import { FaTruckMonster, FaSellsy, FaShip } from "react-icons/fa6";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -15,7 +15,7 @@ const Service = () => {
         <hr />
         <div className={classes.service_Cards}>
           <div className={classes.card} data-aos="fade-right">
-            <FaLandMineOn className={classes.icon} data-aos="flip-right" />
+            <FaTruckMonster className={classes.icon} data-aos="flip-right" />
             <h4>Trading And Mining Of Industrial Minerals</h4>
             <p>
               Over the years, we have been successfully engaged in the
@@ -25,7 +25,7 @@ const Service = () => {
             </p>
           </div>
           <div className={classes.card} data-aos="fade-up">
-            <FaResolving className={classes.icon} data-aos="flip-left" />
+            <FaSellsy className={classes.icon} data-aos="flip-left" />
             <h4>Trading Of Minor Metals</h4>
             <p>
               We have traded in minor metals very profitably, buying, selling
@@ -34,7 +34,7 @@ const Service = () => {
             </p>
           </div>
           <div className={classes.card} data-aos="fade-left">
-            <FaNetworkWired className={classes.icon} data-aos="fade-right" />
+            <FaShip className={classes.icon} data-aos="fade-right" />
             <h4>Mining Center Solutions</h4>
             <p>
               In our trading processes, we proffer Ex-Warehousing, Free-On-

@@ -1,96 +1,123 @@
-.about_Container {
+.mission_Wrapper {
+  width: 100%;
+  margin: 0 auto;
   background: #fafafa;
-  padding-top: 8rem;
-  padding-bottom: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
-.about_Container > hr {
+.mission_Content {
   width: 85%;
   margin: 0 auto;
-}
-
-.about_Wrapper {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.about_Mission {
   display: flex;
   flex-direction: row;
-  gap: 15rem;
+  justify-content: center;
+  gap: 4rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  align-items: center;
 }
 
-.about_Mission h2 {
+.mission_Content h2 {
   font-size: 2rem;
-  text-align: center;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  margin-top: 4.5rem;
+  margin-bottom: 1.2rem;
 }
 
-.about_Text p {
+.mission_Text p {
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   line-height: 28px;
-  margin-top: 2rem;
 }
 
-.about_Text > p {
-  margin-top: 4.5rem;
+.mission_Content img {
+  width: 50%;
 }
 
-.about_Text h3 {
-  font-size: 1.3rem;
+.mission_Text {
+  width: 50%;
+}
+
+.mission_Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 4rem;
+}
+
+.mission_Cards .card {
+  border: 1px solid #ccc;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  width: 30%;
+  cursor: pointer;
+  transition: transform 0.5s ease-out;
+}
+
+.mission_Cards .card:hover {
+  border: 1px solid #7b3f00;
+  transform: translateY(-13px);
+  transition: transform 0.3s ease-out;
+}
+
+.mission_Cards .card h4 {
+  font-size: 1.2rem;
+  /* font-weight: 400; */
   font-family: "Montserrat", sans-serif;
-  line-height: 28px;
-  font-weight: 600;
-  margin-top: 2.2rem;
+  margin-bottom: 0.789rem;
 }
 
-.about_Wrapper hr {
-  margin-top: 3rem;
+.mission_Cards .card hr {
+  width: 16%;
+  background: #7b3f00;
+  height: 3px;
+  border: none;
+  margin-bottom: 0.789rem;
 }
 
-.bullet_List {
-  list-style-type: disc; /* Use bullets for each list item */
-  padding-left: 20px; /* Add some padding for spacing */
+.mission_Cards .card p {
+  font-size: 0.889rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
 }
 
-.bullet_List p {
-  margin-bottom: 0px; /* Add spacing between list items */
-  font-size: 16px; /* Adjust font size as needed */
-  line-height: 2; /* Adjust line height for readability */
-}
-
-@media screen and (max-width: 1440px) {
-  .about_Wrapper {
+@media screen and (max-width: 1024px) {
+  .mission_Content,
+  .mission_Cards {
     width: 95%;
   }
 }
 
 @media screen and (max-width: 770px) {
-  .about_Container {
-    padding-top: 5rem;
+  .mission_Cards,
+  .mission_Content {
+    flex-direction: column;
   }
 
-  .about_Mission {
-    gap: 3.4rem;
+  .mission_Content img,
+  .mission_Text {
+    width: 95%;
   }
 
-  .about_Mission h2 {
-    font-size: 1.7rem;
+  .mission_Content {
+    width: 95%;
+  }
+
+  .mission_Cards .card {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .about_Mission {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .about_Mission h2 {
-    text-align: left;
+  .mission_Cards .card {
+    width: 85%;
+    margin: 0 auto;
   }
 }

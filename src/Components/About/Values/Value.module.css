@@ -44,7 +44,6 @@
   padding: 3rem;
   width: 22%;
   border-radius: 5px;
-  cursor: pointer;
   transition: transform 0.73s ease-out;
   transition: 0.5s ease-in-out;
 }

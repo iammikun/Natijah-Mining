@@ -2,7 +2,12 @@ import React, { useEffect } from "react";
 import classes from "./Value.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaPeopleCarry, FaBitcoin, FaHandshake, FaAward } from "react-icons/fa";
+import {
+  FaPeopleCarry,
+  FaDollarSign,
+  FaHandshake,
+  FaAward,
+} from "react-icons/fa";
 
 const Values = () => {
   useEffect(() => {
@@ -30,7 +35,7 @@ const Values = () => {
           <p>Collaboration</p>
         </div>
         <div className={classes.value_Box}>
-          <FaBitcoin className={classes.icon} />
+          <FaDollarSign className={classes.icon} />
           <p>Profitability</p>
         </div>
       </div>

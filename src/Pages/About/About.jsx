@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Hero from "../../Components/About/Hero/Hero";
 import AboutContent from "../../Components/About/AboutContent/AboutContent";
 import Leader from "../../Components/About/Leader/Leader";
+import Partner from "../../Components/Home/Partner/Partner";
 
 const About = () => {
   useEffect(() => {
@@ -12,6 +13,7 @@ const About = () => {
       <div>
         <Hero />
         <AboutContent />
+        <Partner />
         <Leader />
       </div>
     </div>

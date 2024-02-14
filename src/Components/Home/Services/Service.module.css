@@ -44,12 +44,14 @@
   border-radius: 5px;
   border: 1px solid #e5eaed;
   box-shadow: 0 4px 8px #e5eaed;
-  transition: transform 0.43s ease-out;
+  transition: transform 0.3s ease-out;
   width: 70%;
+  word-wrap: break-word;
 }
 
 .service_Cards .card:hover {
   transform: translateY(-13px);
+  transition: transform 0.3s ease-out;
 }
 
 .icon {

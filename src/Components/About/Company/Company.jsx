@@ -14,6 +14,13 @@ const Company = () => {
           <h2 data-aos="fade-right">Company</h2>
           <div className={classes.company_Text} data-aos="fade-left">
             <p>
+              NATIJAH MINERALS NIG. LTD is an indigenous licensed company
+              registered in 2008 under the Corporate Affairs Commission of
+              Nigeria for the purpose of solid minerals mining and trading in
+              Nigeria and around the world, with its subsidiary NATIJAH MINERAL
+              MOROCCO.
+            </p>
+            <p>
               As a business venture committed to excellent service delivery
               within the solid mineral sector, we embrace innovation, global
               collaboration, and a focus on harnessing untapped potential. Our

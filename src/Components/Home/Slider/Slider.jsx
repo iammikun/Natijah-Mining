@@ -6,7 +6,9 @@ import classes from "./Slider.module.css";
 import slideOne from "../../../Images/slideOne.jpg";
 // import slideTwo from "../../../Images/slideTwo.jpg";
 import slideThree from "../../../Images/slideThree.jpg";
-import slideFour from "../../../Images/slideFour.jpg";
+import slideFour from "../../../Images/slideFour.png";
+import tantalite from "../../../Images/tantalite.png";
+import monazite from "../../../Images/monazite.png";
 
 export default function SimpleSlider() {
   var settings = {
@@ -73,6 +75,24 @@ export default function SimpleSlider() {
           Columbite, a mineral ore, contains tantalum and niobium, vital
           elements for electronic devices. Mined globally, it plays a key role
           in technological advancements and manufacturing processes.
+        </p>
+      </div>
+      <div>
+        <img src={tantalite} alt="" loading="lazy" />
+        <h4>Tantalite</h4>
+        <p>
+          Tantalite, a crucial mineral ore, is a source of tantalum, vital for
+          electronic components. Mined worldwide, it supports technology
+          innovation and contributes to the electronics industry.
+        </p>
+      </div>
+      <div>
+        <img src={monazite} alt="" loading="lazy" />
+        <h4>Monazite</h4>
+        <p>
+          Monazite is a rare earth phosphate mineral that contains a high
+          concentration of rare earth elements (REEs), thorium, and sometimes
+          uranium.
         </p>
       </div>
     </Slider>

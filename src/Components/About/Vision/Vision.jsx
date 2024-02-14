@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./Vision.module.css";
+import vish from "../../../Images/vish.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -9,48 +10,63 @@ const Vision = () => {
   }, []);
   return (
     <div className={classes.vision_Container}>
-      <div className={classes.vision_Wrapper}>
-        <div className={classes.vision_Mission}>
-          <h2 data-aos="fade-right">Vision</h2>
-          <div className={classes.vision_Text} data-aos="fade-left">
+      <div className={classes.vision_Wrapper} data-aos="fade-down">
+        <div className={classes.vision_Content} data-aos="fade-left">
+          <img src={vish} alt="" data-aos="fade-left" />
+          <div className={classes.vision_Text}>
+            <h2 data-aos="fade-right">Our Vision</h2>
             <p>
               To become Africa’s premier solid minerals mining and trading
-              company. At Natijah Minerals Nigeria Limited, it is our vision to
-              reckon among the top players in the global mineral mining and
-              trading sector by ensuring maximum excellence in research, trade
+              company.
+            </p>
+            <p>
+              At Natijah Minerals Nigeria Limited, it is our vision to reckon
+              among the top players in the global mineral mining and trading
+              sector by ensuring maximum excellence in research,5 trade
               processes and customer service delivery. Our commitment to
               excellence and accessibility, will be a critical transformative
               factor that impacts upon the industry one client at a time.
             </p>
-            <h3>Key Elements of Our Vision</h3>
-            <ul className={classes.bullet_List}>
-              <p>
-                <b>- Global Leadership In Mineral Exploration: </b>
-                We envision Natijah Minerals Nigeria Limited as a game changer
-                in the solid mineral exploration industry, setting global
-                standards for quality and innovation.
-              </p>
-              <p>
-                <b>- Thorough Research: </b> We believe in ensuring that what we
-                bring only the highest quality solid minerals to the market
-                guaranteeing our clients of the best they can get anywhere in
-                the world. This is why we perform the due diligence to see that
-                no stone is left unturned in our search for only the best.
-              </p>
-              <p>
-                <b>- Unwavering Commitment to Customer Satisfaction: </b> Our
-                commitment to customer satisfaction is at the core of our
-                vision. We aim to ensure that our customers leave with a sense
-                of fulfillment knowing they have done business with trustworthy
-                partners.
-              </p>
-              <p>
-                <b>- Symbol of Business Excellence: </b>
-                It is our desire to be recognized as a business committed to the
-                highest levels of excellence obtainable anywhere around the
-                world.
-              </p>
-            </ul>
+          </div>
+        </div>
+        <div className={classes.vision_Cards}>
+          <div className={classes.card} data-aos="fade-right">
+            <h4>Global Leadership in Mineral Exploration</h4>
+            <hr />
+            <p>
+              We envision Natijah Minerals Nigeria Limited as a game changer in
+              the solid mineral exploration industry, setting global standards
+              for quality and innovation.
+            </p>
+          </div>
+          <div className={classes.card} data-aos="fade-down">
+            <h4>Thorough Research</h4>
+            <hr />
+            <p>
+              We believe in ensuring that what we bring only the highest quality
+              solid minerals to the market guaranteeing our clients of the best
+              they can get anywhere in the world. This is why we perform the due
+              diligence to see that no stone is left unturned in our search for
+              only the best.
+            </p>
+          </div>
+          <div className={classes.card} data-aos="fade-left">
+            <h4>Symbol of Business Excellence</h4>
+            <hr />
+            <p>
+              It is our desire to be recognized as a business committed to the
+              highest levels of excellence obtainable anywhere around the world.
+            </p>
+          </div>
+          <div className={classes.card} data-aos="fade-left">
+            <h4>Unwavering Commitment to Customer Satisfaction</h4>
+            <hr />
+            <p>
+              Our commitment to customer satisfaction is at the core of our
+              vision. We aim to ensure that our customers leave with a sense of
+              fulfillment knowing they have done business with trustworthy
+              partners.
+            </p>
           </div>
         </div>
       </div>
