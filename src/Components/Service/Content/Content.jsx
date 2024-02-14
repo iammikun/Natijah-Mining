@@ -28,7 +28,7 @@ const Content = () => {
           <img src={cardOne} alt="" data-aos="fade-left" loading="lazy" />
         </div>
         <div className={classes.content_Service}>
-          <img src={cardTwo} alt="" data-aos="fade-right" loading="lazy" />
+          <img src={cardTwo} alt="" data-aos="fade-center" loading="lazy" />
           <div className={classes.content_Card}>
             <h2 data-aos="fade-left"> 2. Trading Of Minor Metals</h2>
             <p data-aos="fade-left">

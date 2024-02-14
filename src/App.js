@@ -9,6 +9,7 @@ import Services from './Pages/Services/Service';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
 import Team from './Pages/Team/Team';
+// import PreLoader from './Components/PreLoader/PreLoader';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      {/* <PreLoader /> */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
