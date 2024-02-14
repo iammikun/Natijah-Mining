@@ -16,16 +16,16 @@ const Partner = () => {
       <h2>Our Partners</h2>
       <hr />
       <div className={classes.partner_Wrapper}>
-        <div>
+        <div className={classes.img}>
           <img src={tianneng} alt="" loading="lazy" />
         </div>
-        <div>
+        <div className={classes.img}>
           <img src={highland} alt="" loading="lazy" />
         </div>
-        <div>
+        <div className={classes.img}>
           <img src={xiamen} alt="" loading="lazy" />
         </div>
-        <div>
+        <div className={classes.img}>
           <img src={aishi} alt="" className={classes.last} loading="lazy" />
         </div>
       </div>
