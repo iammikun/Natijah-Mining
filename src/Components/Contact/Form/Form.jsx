@@ -16,12 +16,12 @@ const Form = () => {
           <div className={classes.info}>
             <a href="mailto:info@natijahminerals.com">
               <FaMessage className={classes.icon} />
-              natijahminerals@yahoo.com{" "}
+              INFO@NATIJAHMINERALS.COM
             </a>
-            <a href="tel:">
+            {/* <a href="tel:">
               <FaPhone className={classes.icon} />
               +234 803 6226 767
-            </a>
+            </a> */}
           </div>
         </div>
         <div className={classes.loca}>

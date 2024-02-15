@@ -1,0 +1,45 @@
+.solidBlog {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.solid_Wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.solidBack {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.solidBack a {
+  color: black;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.889rem;
+}
+
+.solidBack a > div {
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+.solidBack p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .solid_Wrapper {
+    width: 95%;
+  }
+}

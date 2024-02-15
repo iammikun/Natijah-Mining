@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import classes from "./News.module.css";
-import newsOne from "../../../Images/newsOne.jpg";
+import lime from "../../../Images/lime.jpg";
 // import newTwo from "../../../Images/newTwo.jpg";
 import newsThree from "../../../Images/newsThree.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const News = () => {
   useEffect(() => {
@@ -14,59 +15,54 @@ const News = () => {
     <div className={classes.news_Section} data-aos="fade-right">
       <div className={classes.news_Content}>
         <div data-aos="fade-right">
-          <a href="https://www.bitkern.com/en/news" target="_blank">
-            <img src={newsOne} alt="" />
-          </a>
+          <Link to="/solid">
+            <img src={lime} alt="" />
+          </Link>
           <div className={classes.card}>
-            <h4>New Head Office</h4>
-            <p>The Bitkern Group moved Head Office to Zug in Switzerland.</p>
-            <a
-              href="https://www.bitkern.com/en/news"
-              target="_blank"
-              className={classes.button}
-            >
+            <h4>Solid Minerals in Nigeria</h4>
+            <p>
+              In Nigeria, some key mineralsmined include limestone for cement
+              production, tin and columbite for electronics and alloys, coal for
+              energy generation, lead ore, zinc ore, lithium, copper,
+              petroleum/natural gas, bitumen, iron ore, gypsum, talc, bentonite
+              and baryte, gemstones, kaolin, rock salt,limestone, tin, marble,
+              bitumen, bentonite, gemstones, kaolin, rock salt, and gold.
+            </p>
+            <Link to="/solid" className={classes.button}>
               <button>READ MORE</button>
-            </a>
+            </Link>
           </div>
         </div>
         <div data-aos="fade-up">
-          <a href="https://www.bitkern.com/en/news" target="_blank">
-            <img src={newsOne} alt="" />
-          </a>
+          <Link to="">
+            <img src={lime} alt="" />
+          </Link>
           <div className={classes.card}>
             <h4>New Partnership: Kadena Mining Club</h4>
             <p>
               The Bitkern Group Announces Groundbreaking Partnership with Kadena
               Mining Club.
             </p>
-            <a
-              href="https://www.bitkern.com/en/news"
-              target="_blank"
-              className={classes.button}
-            >
+            <Link to="/solid" className={classes.button}>
               <button>READ MORE</button>
-            </a>
+            </Link>
           </div>
         </div>
-        <div data-aos="fade-right">
-          <a href="https://www.bitkern.com/en/news" target="_blank">
+        {/* <div data-aos="fade-right">
+          <Link to="">
             <img src={newsThree} alt="" />
-          </a>
+          </Link>
           <div className={classes.card}>
             <h4>New Partnership: Crypto Oxygen</h4>
             <p>
               Crypto Oxygen and Bitkern Announce Partnership to Deliver
               Cutting-Edge Solutions in Crypto Mining.
             </p>
-            <a
-              href="https://www.bitkern.com/en/news"
-              target="_blank"
-              className={classes.button}
-            >
+            <Link to="/solid" className={classes.button}>
               <button>READ MORE</button>
-            </a>
+            </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

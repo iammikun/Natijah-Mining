@@ -11,11 +11,10 @@ const Hero = () => {
     <div className={classes.hero_News}>
       <div className={classes.news_Wrapper}>
         {" "}
-        <h5 data-aos="fade-left">NATIJAH NEWS & BLOG</h5>
         <h2 data-aos="fade-right">Informations and Insights</h2>
         <p data-aos="fade-left">
-          Get news and read about minerals mined in Nigeria and abroad and dive
-          into articles about A.I. and other mining-related topics.
+          Get information and insight about us, other players, activities and
+          happenings in the global solid minerals industry.
         </p>
       </div>
     </div>

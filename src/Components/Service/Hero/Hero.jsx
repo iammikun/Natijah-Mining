@@ -11,10 +11,11 @@ const Hero = () => {
     <div className={classes.hero_Service}>
       <div className={classes.hero_Wrapper}>
         {" "}
-        <h5 data-aos="fade-left">Our Services</h5>
-        <h2 data-aos="fade-left">Natijah Minerals Services</h2>
+        <h2 data-aos="fade-left">Our Services</h2>
         <p data-aos="fade-right">
-          We differentiate ourselves by offering our unique experience
+          Providing our local and international clientele with the best
+          obtainable solid minerals to make their business of building and
+          engendering industrial transformation easy.
         </p>
       </div>
     </div>

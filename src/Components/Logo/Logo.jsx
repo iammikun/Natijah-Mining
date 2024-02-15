@@ -11,7 +11,7 @@ const Logo = () => {
   }, []);
   return (
     <Link to="/" className={classes.logo} data-aos="fade-right">
-      <img src={logo} alt="" loading="lazy" />
+      <img src={logo} alt="" loading="lazy" /> <p>Natijah Minerals Nig Ltd.</p>
     </Link>
   );
 };

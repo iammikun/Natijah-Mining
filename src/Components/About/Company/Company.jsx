@@ -5,14 +5,14 @@ import "aos/dist/aos.css";
 
 const Company = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className={classes.company_Container}>
+    <div className={classes.company_Container} data-aos="fade-up">
       <div className={classes.company_Wrapper}>
         <div className={classes.company_Mission}>
-          <h2 data-aos="fade-right">Company</h2>
-          <div className={classes.company_Text} data-aos="fade-left">
+          <h2 data-aos="fade-down">Company</h2>
+          <div className={classes.company_Text} data-aos="fade-up">
             <p>
               NATIJAH MINERALS NIG. LTD is an indigenous licensed company
               registered in 2008 under the Corporate Affairs Commission of

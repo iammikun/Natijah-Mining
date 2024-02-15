@@ -16,7 +16,7 @@ const Content = () => {
         <div className={classes.content_Service}>
           <div className={classes.content_Card}>
             <h2 data-aos="fade-right">
-              1. Trading And Mining Of Industrial Minerals
+              Trading And Mining Of Industrial Minerals
             </h2>
             <p data-aos="fade-right">
               Over the years, we have been successfully engaged in the
@@ -30,7 +30,7 @@ const Content = () => {
         <div className={classes.content_Service}>
           <img src={cardTwo} alt="" data-aos="fade-center" loading="lazy" />
           <div className={classes.content_Card}>
-            <h2 data-aos="fade-left"> 2. Trading Of Minor Metals</h2>
+            <h2 data-aos="fade-left">Trading Of Minor Metals</h2>
             <p data-aos="fade-left">
               We have traded in minor metals very profitably, buying, selling
               and exporting directly to our growing client base. We have majorly
@@ -40,7 +40,7 @@ const Content = () => {
         </div>
         <div className={classes.content_Service}>
           <div className={classes.content_Card}>
-            <h2 data-aos="fade-right">3. Quality Standards</h2>
+            <h2 data-aos="fade-right">Enabling Trading Processes</h2>
             <p data-aos="fade-right">
               In our trading processes, we proffer Ex-Warehousing, Free-On-
               Board (FOB), and Cost, Insurance and Freight (CIF) services to our

@@ -1,6 +1,6 @@
-.hero_About {
+.hero_Container {
   width: 100%;
-  background-image: url(../../../Images/aboutbg.jpg);
+  background-image: url(../../../Images/lime.jpg);
   height: 70vh;
   background-size: cover;
   background-position: center center;
@@ -15,31 +15,22 @@
 .hero_Wrapper {
   width: 85%;
   margin: 0 auto;
-  padding-top: 17rem;
-}
-
-.hero_Wrapper h5 {
-  color: #7b3f00;
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  /* padding-bottom: 15px; */
-  line-height: 45px;
+  padding-top: 18rem;
 }
 
 .hero_Wrapper h2 {
   color: #fff;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   line-height: 45px;
 }
 
 .hero_Wrapper p {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  line-height: 28px;
   width: 50%;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -50,17 +41,13 @@
 
 @media screen and (max-width: 1330px) {
   .hero_Wrapper {
-    padding-top: 9rem;
-  }
-
-  .hero_Wrapper p {
-    width: 85%;
+    padding-top: 12rem;
   }
 }
 
 @media screen and (max-width: 770px) {
   .hero_Wrapper {
-    padding-top: 8rem;
+    padding-top: 14rem;
   }
 
   .hero_Wrapper p {
@@ -70,7 +57,7 @@
 
 @media screen and (max-width: 600px) {
   .hero_Wrapper {
-    padding-top: 7.5rem;
+    padding-top: 17rem;
   }
 
   .hero_Wrapper h2 {
@@ -80,11 +67,5 @@
 
   .hero_Wrapper p {
     font-size: 0.919rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .hero_Wrapper {
-    padding-top: 7rem;
   }
 }

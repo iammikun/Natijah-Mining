@@ -51,6 +51,25 @@
   font-size: 0.789rem;
 }
 
+.button {
+  background: transparent;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 10px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #7b3f00;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background: #7b3f00;
+  color: #fff;
+}
+
 @media screen and (max-width: 600px) {
   .leader_Container {
     margin-top: 5rem;

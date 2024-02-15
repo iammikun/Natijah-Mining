@@ -10,9 +10,10 @@ const Hero = () => {
   return (
     <div className={classes.news_hero}>
       <div className={classes.hero_Hero}>
-        <h5 data-aos="fade-left">Our Team</h5>
-        <h2 data-aos="fade-right">Meet the team</h2>
-        <p data-aos="fade-left">Meet our world class people.</p>
+        <h2 data-aos="fade-right">Our People</h2>
+        <p data-aos="fade-left">
+          Meet our Team of World Class Experienced Profesionals.
+        </p>
       </div>
     </div>
   );

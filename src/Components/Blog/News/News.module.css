@@ -13,6 +13,14 @@
   gap: 3rem;
 }
 
+.news_Content img {
+  width: 100%;
+}
+
+.news_Content {
+  width: 60%;
+}
+
 .news_Content .card {
   background-color: #fafafa;
   cursor: pointer;
