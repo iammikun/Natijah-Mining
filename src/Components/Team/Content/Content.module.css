@@ -1,6 +1,5 @@
 .content_Container {
   width: 100%;
-  padding-top: 8rem;
   padding-bottom: 5rem;
   background-color: #fafafa;
 }
@@ -16,7 +15,7 @@
 }
 
 .content_Img {
-  border: 1px solid #f5f5;
+  /* border: 1px solid #f5f5; */
   padding-top: 10rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
@@ -27,7 +26,7 @@
 .content_Img h4 {
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
-  line-height: 45px;
+  line-height: 35px;
 }
 
 .content_Img p {

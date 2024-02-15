@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 600px) {
   .hero_Wrapper {
-    padding-top: 7.5rem;
+    padding-top: 10rem;
   }
 
   .hero_Wrapper h2 {
@@ -80,11 +80,5 @@
 
   .hero_Wrapper p {
     font-size: 0.919rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .hero_Wrapper {
-    padding-top: 7rem;
   }
 }
