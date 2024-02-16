@@ -11,7 +11,7 @@ const Company = () => {
     <div className={classes.company_Container} data-aos="fade-up">
       <div className={classes.company_Wrapper}>
         <div className={classes.company_Mission}>
-          <h2 data-aos="fade-down">Company</h2>
+          <h2 data-aos="fade-down">About Us</h2>
           <div className={classes.company_Text} data-aos="fade-up">
             <p>
               NATIJAH MINERALS NIG. LTD is an indigenous licensed company

@@ -10,35 +10,35 @@ const Content = () => {
       <div className={classes.content_Content}>
         <div className={classes.content_Img}>
           <img src={dir} alt="" />
-          <h4>Stefan Kern</h4>
+          {/* <h4>Stefan Kern</h4> */}
           <p>CHAIRMAN/MANAGING DIRECTOR</p>
         </div>
         <div className={classes.content_Img}>
           {/* <img src={ceo} alt="" /> */}
           {/* <h4>Foluso Phillips</h4> */}
-          <p>Managing Director</p>
+          {/* <p>Managing Director</p> */}
         </div>
         <div className={classes.content_Img}>
           {/* <img src={ceo} alt="" /> */}
           {/* <h4>Modupe Thomas-Owoseni</h4> */}
-          <p>Partner, Business Operations</p>
+          {/* <p>Partner, Business Operations</p> */}
         </div>
       </div>
       <div className={classes.content_Cont}>
         <div className={classes.content_Img}>
           {/* <img src={ceo} alt="" /> */}
           {/* <h4>Foluso Phillips</h4> */}
-          <p>Chairman</p>
+          {/* <p>Chairman</p> */}
         </div>
         <div className={classes.content_Img}>
           {/* <img src={ceo} alt="" /> */}
           {/* <h4>Foluso Phillips</h4> */}
-          <p>Managing Director</p>
+          {/* <p>Managing Director</p> */}
         </div>
         <div className={classes.content_Img}>
           {/* <img src={ceo} alt="" /> */}
           {/* <h4>Modupe Thomas-Owoseni</h4> */}
-          <p>Partner, Business Operations</p>
+          {/* <p>Partner, Business Operations</p> */}
         </div>
       </div>
     </div>

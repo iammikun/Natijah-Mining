@@ -11,7 +11,7 @@
 .company_Mission {
   display: flex;
   flex-direction: row;
-  gap: 13rem;
+  gap: 8rem;
 }
 
 .company_Mission h2 {
@@ -20,6 +20,7 @@
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
+  width: 50%;
 }
 
 .company_Text p {
