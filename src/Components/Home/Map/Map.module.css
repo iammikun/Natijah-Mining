@@ -1,0 +1,31 @@
+.map_Container {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.map_Wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .map_Wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map_Container {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .map_Container {
+    margin-top: 3rem;
+  }
+
+  .map_Wrapper {
+    width: 95%;
+  }
+}

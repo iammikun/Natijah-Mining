@@ -17,7 +17,7 @@ const AboutContent = () => {
         <div className={classes.mission_Content} data-aos="fade-down">
           <img src={mish} alt="" data-aos="fade-down" />
           <div className={classes.mission_Text}>
-            <h2 data-aos="fade-down">Our Mission</h2>
+            <h2 data-aos="fade-down">Mission</h2>
             <p>
               At Natijah Minerals Nigeria Limited, we are dedicated to sourcing
               and delivering 'A' grade solid minerals for our esteemed clients.

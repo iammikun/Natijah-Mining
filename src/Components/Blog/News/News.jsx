@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import classes from "./News.module.css";
-import lime from "../../../Images/lime.jpg";
+import lime from "../../../Images/lime.png";
 // import newTwo from "../../../Images/newTwo.jpg";
-import newsThree from "../../../Images/newsThree.jpg";
+// import newsThree from "../../../Images/newsThree.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -33,7 +33,7 @@ const News = () => {
             </Link>
           </div>
         </div>
-        <div data-aos="fade-up">
+        {/* <div data-aos="fade-up">
           <Link to="">
             <img src={lime} alt="" />
           </Link>
@@ -47,7 +47,7 @@ const News = () => {
               <button>READ MORE</button>
             </Link>
           </div>
-        </div>
+        </div> */}
         {/* <div data-aos="fade-right">
           <Link to="">
             <img src={newsThree} alt="" />

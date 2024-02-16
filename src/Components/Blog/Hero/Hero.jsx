@@ -11,7 +11,7 @@ const Hero = () => {
     <div className={classes.hero_News}>
       <div className={classes.news_Wrapper}>
         {" "}
-        <h2 data-aos="fade-right">Informations and Insights</h2>
+        <h2 data-aos="fade-right">Information and Insights</h2>
         <p data-aos="fade-left">
           Get information and insight about us, other players, activities and
           happenings in the global solid minerals industry.

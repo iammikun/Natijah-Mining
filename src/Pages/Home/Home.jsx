@@ -7,6 +7,7 @@ import Mission from "../../Components/Home/Mission/Mission";
 import Service from "../../Components/Home/Services/Service";
 import Slider from "../../Components/Home/Slider/Slider";
 import Values from "../../Components/About/Values/Values";
+import Map from "../../Components/Home/Map/Map";
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const Home = () => {
         <Mission />
         <Values />
         <Why />
+        <Map />
         <Service />
         <Slider />
         <Partner />
