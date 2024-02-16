@@ -23,6 +23,7 @@
 @media screen and (max-width: 500px) {
   .map_Container {
     margin-top: 3rem;
+    display: none;
   }
 
   .map_Wrapper {
