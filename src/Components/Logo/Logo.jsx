@@ -7,7 +7,7 @@ import classes from "./Logo.module.css";
 
 const Logo = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
     <Link to="/" className={classes.logo} data-aos="fade-right">

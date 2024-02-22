@@ -6,15 +6,15 @@ import "aos/dist/aos.css";
 
 const Service = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
-    <div className={classes.service_Container} data-aos="fade-right">
+    <div className={classes.service_Container} data-aos="fade-down">
       <div className={classes.service_Wrapper}>
         <h2>Our Services</h2>
         <hr />
         <div className={classes.service_Cards}>
-          <div className={classes.card} data-aos="fade-right">
+          <div className={classes.card} data-aos="fade-down">
             <FaTruckMonster className={classes.icon} data-aos="flip-right" />
             <h4>Trading And Mining Of Industrial Minerals</h4>
             <p>
@@ -24,7 +24,7 @@ const Service = () => {
               locally in Nigeria and Morocco, as well as internationally.
             </p>
           </div>
-          <div className={classes.card} data-aos="fade-up">
+          <div className={classes.card} data-aos="fade-down">
             <FaSellsy className={classes.icon} data-aos="flip-left" />
             <h4>Trading Of Minor Metals</h4>
             <p>
@@ -33,7 +33,7 @@ const Service = () => {
               dealt in the trade of Tin Ore, Columbite, Monazite, and Tantalite.
             </p>
           </div>
-          <div className={classes.card} data-aos="fade-left">
+          <div className={classes.card} data-aos="fade-down">
             <FaShip className={classes.icon} data-aos="fade-right" />
             <h4>Mining Center Solutions</h4>
             <p>

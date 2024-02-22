@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Button = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
     <Link to="/contact" data-aos="fade-left">

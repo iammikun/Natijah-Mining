@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 const Nav = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
     <nav className={classes.nav_Blog}>

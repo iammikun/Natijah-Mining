@@ -6,12 +6,12 @@ import "aos/dist/aos.css";
 
 const Vision = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
-    <div className={classes.vision_Container}>
+    <div className={classes.vision_Container} data-aos="fade-down">
       <div className={classes.vision_Wrapper} data-aos="fade-down">
-        <div className={classes.vision_Content} data-aos="fade-left">
+        <div className={classes.vision_Content} data-aos="fade-down">
           <img src={vish} alt="" data-aos="fade-down" />
           <div className={classes.vision_Text}>
             <h2 data-aos="fade-down">Vision</h2>
@@ -30,7 +30,7 @@ const Vision = () => {
           </div>
         </div>
         <div className={classes.vision_Cards}>
-          <div className={classes.card} data-aos="fade-right">
+          <div className={classes.card} data-aos="fade-down">
             <h4>Global Leadership in Mineral Exploration</h4>
             <hr />
             <p>
@@ -50,7 +50,7 @@ const Vision = () => {
               only the best.
             </p>
           </div>
-          <div className={classes.card} data-aos="fade-left">
+          <div className={classes.card} data-aos="fade-down">
             <h4>Symbol of Business Excellence</h4>
             <hr />
             <p>
@@ -58,7 +58,7 @@ const Vision = () => {
               highest levels of excellence obtainable anywhere around the world.
             </p>
           </div>
-          <div className={classes.card} data-aos="fade-left">
+          <div className={classes.card} data-aos="fade-down">
             <h4>Unwavering Commitment to Customer Satisfaction</h4>
             <hr />
             <p>

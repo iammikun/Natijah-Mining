@@ -8,10 +8,10 @@ import "aos/dist/aos.css";
 
 const AboutContent = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1500 });
   }, []);
   return (
-    <div className={classes.about_Container}>
+    <div className={classes.about_Container} data-aos="fade-down">
       <Company />
       <div className={classes.mission_Wrapper} data-aos="fade-down">
         <div className={classes.mission_Content} data-aos="fade-down">

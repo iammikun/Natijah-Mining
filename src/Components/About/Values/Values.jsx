@@ -11,30 +11,30 @@ import {
 
 const Values = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 1500 });
   }, []);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className={classes.value_Container} data-aos="fade-right">
+    <div className={classes.value_Container} data-aos="fade-down">
       <h2>Our Core Values</h2>
       <hr />
-      <div className={classes.value_Wrapper} data-aos="fade-right">
-        <div className={classes.value_Box}>
+      <div className={classes.value_Wrapper} data-aos="fade-down">
+        <div className={classes.value_Box} data-aos="fade-down">
           <FaHandshake className={classes.icon} />
           <p>Integrity</p>
         </div>
-        <div className={classes.value_Box}>
+        <div className={classes.value_Box} data-aos="fade-left">
           <FaAward className={classes.icon} />
           <p>Professionalism</p>
         </div>
-        <div className={classes.value_Box}>
+        <div className={classes.value_Box} data-aos="fade-down">
           <FaPeopleCarry className={classes.icon} />
           <p>Collaboration</p>
         </div>
-        <div className={classes.value_Box}>
+        <div className={classes.value_Box} data-aos="fade-right">
           <FaDollarSign className={classes.icon} />
           <p>Profitability</p>
         </div>
