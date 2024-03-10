@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 const Content = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
   return (
     <div className={classes.content_Container}>

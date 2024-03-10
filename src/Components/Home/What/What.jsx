@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const What = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
   return (
     <div className={classes.what_Container} data-aos="fade-down">

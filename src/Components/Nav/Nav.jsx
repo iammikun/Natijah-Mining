@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Nav = ({ toggle }) => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
 
   return (

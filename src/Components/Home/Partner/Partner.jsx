@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Partner = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
   return (
     <div className={classes.partner_Container} data-aos="fade-right">

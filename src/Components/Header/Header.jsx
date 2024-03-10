@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Header = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
 
   // const [toggle, setToggle] = useState(true);

@@ -11,15 +11,17 @@
   gap: 2rem;
   width: 85%;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .content_Img {
   /* border: 1px solid #f5f5; */
-  padding-top: 10rem;
+  padding-top: 2rem;
+  margin-top: 6rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  border: 1px solid #cccc;
   width: 40%;
 }
 
@@ -27,6 +29,13 @@
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
   line-height: 35px;
+}
+
+.content_Img h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  font-size: 0.989rem;
+  margin-bottom: 1rem;
 }
 
 .content_Img p {

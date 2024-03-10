@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const News = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 800 });
   }, []);
   return (
     <div className={classes.news_Section} data-aos="fade-right">
